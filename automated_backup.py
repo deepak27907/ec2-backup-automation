@@ -8,19 +8,17 @@ from email.message import EmailMessage
 
 # === CONFIGURATION ===
 
-INSTANCE_ID = 'i-02380a68908cccb8b'
-REGION = 'ap-south-1'
-BATCH_FILE = r"C:\Users\Acer\Desktop\backup_flask_python_project\backup_to_ec2.bat"
-LOG_FILE = r"C:\Users\Acer\Desktop\backup_flask_python_project\backup_log.txt"
-
+INSTANCE_ID = '<your-instance-id>'
+ REGION = '<your-region>'
+ BATCH_FILE = r"<path-to-batch-file>"
+ LOG_FILE = r"<path-to-log-file>"
 # --- Telegram Alert ---
-TELEGRAM_TOKEN = '7983019316:AAE_IHLBbXKXj4VvQJyhNf-Wh4uJyeODkoI'
-TELEGRAM_CHAT_ID = '5306879491'
-
+ TELEGRAM_TOKEN = '<your-telegram-token>'
+ TELEGRAM_CHAT_ID = '<your-chat-id>'
 # --- Email Alert ---
-EMAIL_SENDER = 'ashokbairwa787874@gmail.com'
-EMAIL_APP_PASSWORD = 'ulzptqmgqjkoqury'
-EMAIL_RECEIVER = 'ashokcomputer.ac@gmail.com'
+ EMAIL_SENDER = '<your-email>'
+ EMAIL_APP_PASSWORD = '<your-app-password>'
+ EMAIL_RECEIVER = '<receiver-email>'
 
 
 # === FUNCTIONS ===
